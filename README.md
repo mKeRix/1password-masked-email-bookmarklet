@@ -8,7 +8,7 @@ Instead, you can now use this handy bookmarklet to force the full Masked Email e
 
 _If you are viewing this on github.com: the first step is required to be done from the [website](https://mkerix.github.io/1password-masked-email-bookmarklet/) instead_.
 
-1. Add the link below into your browser favorites via drag and drop, right click or long tap on mobile.
+1. Add the link below into your browser favorites via drag and drop, right click or long tap on mobile. If your browser does not allow bookmarking links directly you can also create a bookmark of this page, copy the link below and manually paste the content into the bookmark.
    
    <a href="javascript: (() => {    const html = '<form><label for=&quot;email&quot; style=&quot;display: none;&quot;>Email</label><input id=&quot;op-masked-email-helper&quot; type=&quot;email&quot; name=&quot;email&quot; autocomplete=&quot;email&quot;><button type=&quot;submit&quot;>Submit</button></form>';    document.body.insertAdjacentHTML('afterbegin', html);    document.getElementById('op-masked-email-helper').focus();})();">1Password Masked Email Helper</a>
 2. Click your bookmark while the page that you want to generate the email for is open.
